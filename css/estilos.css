@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+
+font-face {
+	font-family: 'breeserif';
+	src: url(fonts/breeserif.ttf);
+}
+font-face {
+	font-family: 'ptsans';
+	src: url(fonts/ptsans.ttf);
+}
+#marca{
+	height:100px;
+	font-family: 'Bree Serif', serif;
+	text-shadow: 3px 3px #E6E6E6;
+	letter-spacing: 2px;
+	margin-top: 20px;
+}
+#contenedor{
+	background-image:url(../fondos/fondo2.png);
+}
+#redes_sociales{
+	height:100px;
+	width:200px;
+	margin-top: 5px;
+}
+#botonera_navegacion{
+	background-color: rgba(255, 255, 255, 0.6);
+	text-shadow: 1px 1px #BCF5A9;
+	font-size: 16px;
+	height:auto;	
+}
+#botonera_navegacion, #formulario, #beneficios_adoptar, #noticias_cargadas, #recomendacion, #galeria_imagenes p, h4, #fecha_hoy #fecha_actual h6{
+	font-family: 'PT Serif', serif;
+}
+#galeria_imagenes img{
+	width:100%;
+	max-width:400%;	
+}
+
+#contenido{
+	height:50%; 
+	margin:0;
+}
+#nota_recomendada_a, #noticias_cargadas, #beneficios_adoptar{
+	background-color: rgba(230, 247, 255, 0.5);
+	margin-top: 10px;
+}
+
+#beneficios_adoptar{
+	margin-left: 5px;	
+}
+#nota_recomendada_a{
+  	margin-left: 5px;
+  	height: 420px;
+}
+h4{
+	text-transform: uppercase;
+	font-weight: bold;
+	color:black;
+	margin:10px;
+	text-shadow: 1px 1px #EFF5FB;
+}
+p, ol, h5, blockquote{
+	font-family: Cambria, Verdana;
+	font-size: 17px;
+	color:grey;
+	text-shadow: 1px 1px #E0F8EC;
+}
+#publicidad{
+	height: 390px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+#video{
+	height: 200px;
+	margin-top: 10px;	
+}
+#pie{
+	background-color:#D0F5A9;
+	height:50px;
+	margin-top: 15px;
+}
+#formulario, #imagen_form, #form,  #introduccion, #texto, #recomendacion{
+	background-color: rgba(230, 247, 255, 0.5);
+}
+
+#formulario, h4{
+	margin-top: 15px;
+}
+#imagen_concurso p{
+	text-shadow: 2px 2px #E0F8EC;
+	height: 188px;
+}
+
+#introduccion p{
+	margin-top: 10px;
+}
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  letter-spacing: 2px;
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+ /* vertical-align: -0.4em;*/
+ vertical-align: middle;
+
+}
+blockquote h4 {
+  display: inline;
+}
+
+#beneficios_adoptar ul{
+	list-style-type: none;
+}
+#nombre, #apellido, #correo, #tipo_noticia, #fecha{
+	display: inline-block;
+	margin-top: 5px;
+}
+#correo, #fecha{
+   margin-left: 35px;	
+}
+#beneficios_adoptar ul li #nombre{
+     margin-left: 20px; 
+}
+#apellido{
+    margin-left: 18px;   
+}
+#tipo_noticia{
+	margin-left: 25px;
+}
+#noticias_cargadas{
+	margin-left: 25px;
+}
+#vacunas_perros, #vacunas_gatos{
+	margin-left: 10px;
+}
+
+#calendario iframe{
+	max-width: 100%;
+  }
